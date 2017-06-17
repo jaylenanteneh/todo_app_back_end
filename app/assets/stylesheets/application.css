@@ -13,3 +13,20 @@
  *= require_tree .
  *= require_self
  */
+.redtext{color:red}
+li{list-style: none;position:relative;}
+body{background-color:grey;}
+p{margin:20px;font-weight: 600}
+li:hover{background-color:green !important;}
+.card { box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); transition: 0.3s; }
+.card:hover { box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); }
+.SettingsDiv{position:absolute;right:5px;top:5px;background-color:red}
+.FilterDiv{position:absolute;right:125px;top:5px;background-color: blue;}
+.pinktext li{
+    padding: 5px 1px 5px 1px;
+    background-color:white;
+    border-radius: 5px;
+    border:black 2px solid;
+    margin:10px;}
+.date{position:absolute;right:5px;}
+.DueDate{position:absolute;right:10px;font-weight:600}
