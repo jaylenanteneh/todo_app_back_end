@@ -2,6 +2,9 @@ class TodoController < ApplicationController
     def index 
     end
     def show 
+        @todo_description = Todo.find_by_id(params[:id]).description 
+        @todo = Todo.find_by_id(params[:id])
+=begin
         todo_id = params[:id]
         #@todo_description = "Error"
         if todo_id == '1'
@@ -20,6 +23,6 @@ class TodoController < ApplicationController
             @todo_description = "Fried Chicken"
         else 
             @todo_description = "Soup"
-        end
+=end
     end
 end
