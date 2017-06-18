@@ -8,6 +8,18 @@ class TodoController < ApplicationController
             @todo_description = "Task 1"
         elsif todo_id == '2'
             @todo_description = "Task 2"
+        elsif todo_id == '3'
+            @todo_description = "Task 3"
+        elsif todo_id == '4'
+            @todo_description = "Task 4"
+        elsif todo_id == '5'
+            @todo_description = "Pizza"
+        elsif todo_id == '6'
+            @todo_description = "Ice Cream"
+        elsif todo_id == '7'
+            @todo_description = "Fried Chicken"
+        else 
+            @todo_description = "Soup"
         end
     end
 end
